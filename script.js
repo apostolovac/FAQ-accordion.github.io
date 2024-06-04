@@ -2,7 +2,6 @@ const buttons = document.querySelectorAll(".card-item-btn");
 
 buttons.forEach((button) => {
  button.addEventListener("click", function () {
-  this.classList.toggle("active");
   const descriptions = this.nextElementSibling; //the next sibling element of the clicked button
   const plusIcons = this.querySelector(".plus-icon");
   const minusIcons = this.querySelector(".minus-icon");
